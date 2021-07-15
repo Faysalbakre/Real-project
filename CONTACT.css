@@ -1,0 +1,348 @@
+@font-face {
+    font-family: Bwmitgaregular;
+    src: url('./FontsFree-Net-BwMitga-Regular.ttf');
+}
+@font-face {
+    font-family: Bwmitgabold;
+    src: url('./FontsFree-Net-BwMitga-Bold.ttf');
+}
+
+.body, html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #04041C;
+    /* overflow: hidden; */
+}
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    margin-right: 7%;
+}
+.nav_bar a{
+    text-decoration: none;
+    font-family: BwMitgaregular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: right;
+    color: #A3AEBF;
+    height: 17px;
+    margin-left: 50px;
+}
+.row1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.col-1{
+    margin-left: 5%;
+}
+.contacts h3{
+    font-family: BwMitgaregular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150.5%;
+    color: #A3AEBF;
+}
+.contacts h4{
+    font-family: BwMitgabold;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 129.5%;
+    color: #A3AEBF;
+}
+.contacts h4 span{
+    color: #F5322C;
+}
+.form{
+    margin-top: 80px;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fname{
+    display: flex;
+    flex-direction: column;
+}
+.fname label{
+    font-family: BwMitgabold;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 180%;
+    color: #A3AEBF;
+    opacity: 0.3;
+    height: 23px;
+    width: 84px;
+}
+#fname{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #A3AEBF;
+    background-color: #04041C;
+    color: #ffffff;
+    width: 350px;
+    height: 50px;
+}
+.lname{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.lname label{
+    font-family: BwMitgabold;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 180%;
+    color: #A3AEBF;
+    opacity: 0.3;
+    height: 23px;
+    width: 84px;
+}
+#lname{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #F5322C;
+    background-color: #04041C;
+    color: #ffffff;
+    width: 350px;
+    height: 50px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+}
+.phone label{
+    font-family: BwMitgabold;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 180%;
+    color: #A3AEBF;
+    opacity: 0.3;
+    height: 23px;
+    width: 118px;
+}
+#phone{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #A3AEBF;
+    background-color: #04041C;
+    color: #ffffff;
+    width: 350px;
+    height: 50px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+}
+.email label{
+    font-family: BwMitgabold;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 180%;
+    color: #A3AEBF;
+    opacity: 0.3;
+    height: 23px;
+    width: 118px;
+}
+#email{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #A3AEBF;
+    background-color: #04041C;
+    color: #ffffff;
+    width: 350px;
+    height: 50px;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.message label{
+    font-family: BwMitgabold;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 180%;
+    color: #A3AEBF;
+    opacity: 0.3;
+    height: 23px;
+    width: 118px;
+}
+#message{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #A3AEBF;
+    background-color: #04041C;
+    color: #ffffff;
+    width: 750px;
+    height: 50px;
+}
+.form a{
+    text-decoration: none;
+    font-family: BwMitgabold;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: right;
+    color: #A3AEBF;
+    height: 17px;
+    float: right;
+    margin-top: 40px;
+}
+.image{
+    height: 670px;
+    background: linear-gradient(180deg, rgba(14, 12, 21, 0) 48.09%, #04041C 97.32%);
+    float: right;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px 200px 0 50px !important;
+}
+.news h4{
+    width: 233px;
+    height: 45px;
+    font-family: BwMitgabold;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 129.5%;
+    color: #A3AEBF;
+    margin: 0;
+}
+.news h4 span{
+    color: #F5322C;
+}
+.news h5{
+    width: 347px;
+    height: 29px;
+    font-family: BwMitgaregular;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: #A3AEBF;
+    margin: 0;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+}
+#subscribe{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #A3AEBF;
+    background-color: #04041C;
+    color: #A3AEBF;
+    opacity: 0.3;
+    width: 350px;
+    height: 50px;
+    margin-top: 8%;
+}
+.office h6{
+    width: 53px;
+    height: 23px;
+    font-family: BwMitgabold;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 180%;
+    color: #A3AEBF;
+    opacity: 0.3;
+    margin: 0;
+}
+.office h5{
+    width: 191px;
+    height: 87px;
+    font-family: BwMitgabold;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 180%;
+    color: #A3AEBF;
+    margin: 0;
+    margin-top: 10px;
+}
+.support h6{
+    width: 69px;
+    height: 23px;
+    font-family: BwMitgabold;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 180%;
+    color: #A3AEBF;
+    opacity: 0.3;
+    margin: 0;
+    margin-top: 50px;
+}
+.support h5{
+    width: 170px;
+    height: 58px;
+    font-family: BwMitgabold;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 180%;
+    color: #A3AEBF;
+    margin: 0;
+    margin-top: 10px;
+}
+.news a{
+    text-decoration: none;
+    font-family: BwMitgabold;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 17px;
+    text-align: right;
+    color: #A3AEBF;
+    height: 17px;
+    float: right;
+    margin-top: 40px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8%;
+    margin-left: 2%;
+    margin-right: 4%;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+}
+.foot a{
+    text-decoration: none;
+    font-family: BwMitgaregular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: right;
+    color: #A3AEBF;
+    height: 17px;
+    margin-left: 50px;
+}
+.foot span{
+    margin-left: 120px;
+}
